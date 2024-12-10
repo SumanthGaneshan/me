@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.59d5d492.css",
+    "main.js": "/me/static/js/main.14427042.js",
+    "static/js/453.c4a83396.chunk.js": "/me/static/js/453.c4a83396.chunk.js",
+    "static/media/c2.png": "/me/static/media/c2.b6cc5e40267068681fe4.png",
+    "static/media/fa-solid-900.ttf": "/me/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/c1.png": "/me/static/media/c1.d3c38f0ca75b3458d0ee.png",
+    "static/media/fa-brands-400.ttf": "/me/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/g2.jpeg": "/me/static/media/g2.b9519712d2c11f0ae6b7.jpeg",
+    "static/media/fa-solid-900.woff2": "/me/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/g1.jpeg": "/me/static/media/g1.ef6d18c3d70d539432ff.jpeg",
+    "static/media/c4.png": "/me/static/media/c4.8efb840183775057b63e.png",
+    "static/media/c3.png": "/me/static/media/c3.52f482e8e9ee9a448eaa.png",
+    "static/media/g3.jpeg": "/me/static/media/g3.a381886b3bf811031fbf.jpeg",
+    "static/media/fa-brands-400.woff2": "/me/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/prog3.png": "/me/static/media/prog3.c0f8debb59265ab77569.png",
+    "static/media/g4.jpeg": "/me/static/media/g4.40f374d2a4a77b5b4afa.jpeg",
+    "static/media/fa-regular-400.ttf": "/me/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/fa-regular-400.woff2": "/me/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/me/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/me/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "static/media/slick.svg": "/me/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/me/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/me/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/me/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/me/index.html",
+    "main.59d5d492.css.map": "/me/static/css/main.59d5d492.css.map",
+    "main.14427042.js.map": "/me/static/js/main.14427042.js.map",
+    "453.c4a83396.chunk.js.map": "/me/static/js/453.c4a83396.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59d5d492.css",
+    "static/js/main.14427042.js"
+  ]
+}
