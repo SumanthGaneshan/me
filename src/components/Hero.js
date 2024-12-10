@@ -62,7 +62,7 @@ const Hero = () => {
 
       {/* Button */}
       <motion.a
-        href="/resume.pdf"
+        href={`${process.env.PUBLIC_URL}/resume.pdf`}
         download="Sumanth_Ganeshan_Resume"
         className="mt-8 inline-block"
         initial={{ opacity: 0 }}
