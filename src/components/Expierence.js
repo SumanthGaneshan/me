@@ -1,11 +1,31 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import t7eLogo from "../assets/t7e_logo.png";
+import fivepaisaLogo from "../assets/fivePaisaLogo.png";
+
 
 const experiences = [
   {
+    title: "Flutter Developer (MT)",
+    company: "5paisa Capital Ltd",
+    logo: fivepaisaLogo,
+    type: "Full-time - Mumbai",
+    duration: "Jan 2025 to Jul 2025",
+    description: [
+      "Implemented the Position Grouping feature in the trading app, allowing users to organize positions by underlying or expiry, improving overall portfolio clarity.",
+      "Improved the Mutual Fund payment flow by integrating UPI Intent for faster and more seamless transactions.",
+      "Utilized Firebase Remote Config to dynamically control UI element visibility and ordering; integrated CleverTap to track user actions and support analytics-driven decisions.",
+      "Led typography standardization across the app, resolved multiple UI inconsistencies, and enhanced overall design coherence.",
+      "Developed features using Bloc with a repository-based architecture for robust state management and modular code structure.",
+      "Maintained codebase and tracked tasks using Team Foundation Server (TFS) for version control and project management"
+    ],
+    technologies: ["Flutter", "Bloc", "dio", "Firebase", "Clevertap", "Postman", "TFS",],
+  },
+  {
     title: "Flutter Developer",
     company: "T7E Aftermarket Connect Pvt Ltd",
-    type: "Full-time",
+    logo: t7eLogo,
+    type: "Full-time - Mumbai",
     duration: "Oct 2023 to Oct 2024",
     description: [
       "Worked on multiple mobile apps that are published on the Play Store and App Store, with most exceeding 1,000 downloads and some between 50,000 and 100,000 downloads.",
@@ -73,9 +93,16 @@ const Experience = () => {
                   <h3 className="text-white text-xl sm:text-2xl lg:text-3xl font-semibold">
                     {exp.title}
                   </h3>
-                  <p className="text-gray-400 text-base sm:text-lg lg:text-xl font-medium">
-                    {exp.company} - {exp.type}
-                  </p>
+                  <div className="flex items-center gap-3 mt-2">
+                    <img
+                      src={exp.logo}
+                      alt={`${exp.company} logo`}
+                      className="w-7 h-7 object-contain rounded-sm"
+                    />
+                    <p className="text-gray-400 text-base sm:text-lg lg:text-xl font-medium">
+                      {exp.company} - {exp.type}
+                    </p>
+                  </div>
                   <p className="text-gray-500 mt-2 text-sm sm:text-base lg:text-lg">{exp.duration}</p>
                   <ul className="text-gray-300 mt-4 space-y-2 list-disc list-inside text-sm sm:text-base">
                     {exp.description.map((desc, idx) => (

@@ -66,7 +66,7 @@ const About = () => {
                     {/* Text Description */}
                     <div className="text-white space-y-6">
                         <p className="text-base text-gray-300 leading-relaxed">
-                            Hey there! I'm <span className="text-purple-400 font-semibold">Sumanth Ganeshan</span>, a Software Developer with 1 year of hands-on experience in Flutter and Dart, specializing in building high-quality mobile applications. Alongside mobile app development, I am also proficient in web development, with expertise in React JS, Redux Toolkit, HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
+                            Hey there! I'm <span className="text-purple-400 font-semibold">Sumanth Ganeshan</span>, a Software Developer with 1.6 year of hands-on experience in Flutter and Dart, specializing in building high-quality mobile applications. Alongside mobile app development, I am also proficient in web development, with expertise in React JS, Redux Toolkit, HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
                         </p>
                         <p className="text-base text-gray-300 leading-relaxed">
                             I'm passionate about creating innovative solutions, dedicated to continuous learning, and committed to delivering high-quality work that exceeds expectations.
