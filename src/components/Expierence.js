@@ -12,14 +12,12 @@ const experiences = [
     type: "Full-time - Mumbai",
     duration: "Jan 2025 to Jul 2025",
     description: [
-      "Implemented the Position Grouping feature in the trading app, allowing users to organize positions by underlying or expiry, improving overall portfolio clarity.",
-      "Improved the Mutual Fund payment flow by integrating UPI Intent for faster and more seamless transactions.",
-      "Utilized Firebase Remote Config to dynamically control UI element visibility and ordering; integrated CleverTap to track user actions and support analytics-driven decisions.",
-      "Led typography standardization across the app, resolved multiple UI inconsistencies, and enhanced overall design coherence.",
-      "Developed features using Bloc with a repository-based architecture for robust state management and modular code structure.",
-      "Maintained codebase and tracked tasks using Team Foundation Server (TFS) for version control and project management"
+      "Revamped the Mutual Fund order flow by enhancing SIP and One-Time investment screens, improving the payment confirmation screen with UPI Intent support, and implementing last-used payment method logic to reduce transaction friction for repeat users.",
+      "Implemented the Position Grouping feature in the stocks positions screen, enabling users to group positions by underlying or expiry for improved portfolio tracking.",
+      "Utilized Firebase Remote Config for dynamic UI management and CleverTap for analytics tracking; standardized app typography and resolved UI inconsistencies across screens.",
+      "Developed features using Bloc state management, repository pattern, and feature-based modular architecture in a production Flutter app.",
     ],
-    technologies: ["Flutter", "Bloc", "dio", "Firebase", "Clevertap", "Postman", "TFS",],
+    technologies: ["Flutter", "Bloc", "dio","Melos", "Go Router (Deep Linking)", "Firebase", "Clevertap", "Postman", "TFS","Figma",],
   },
   {
     title: "Flutter Developer",
